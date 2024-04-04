@@ -1,0 +1,113 @@
+.second{
+    display: flex;
+    justify-content:space-evenly;
+    gap: 260px;
+}
+.navbars{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.services1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.services2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.third{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fourth{
+    display: flex;
+    justify-content: space-evenly;
+}
+.rates{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fifth{
+    display: flex;
+    justify-content: space-evenly;
+}
+.portrait{
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+}
+.doctors{
+    display: flex;
+    justify-content: space-evenly;
+}
+.subscribe{
+    text-align: center;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.stars{
+ color: rgb(224, 71, 15);
+ 
+}
+#see{
+    color: turquoise;
+}
+#image1{
+    position: relative;
+    top: 0;
+}
+.heading1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(220, 241, 244);
+    border: 300px;
+}
+#smile{
+    position: absolute;
+    top: 20px;
+    width: 40px;
+    padding-right: 40%;
+}
+#laugh{
+    position: absolute;
+    bottom: 30px;
+    width: 40px;
+
+}
+.button{
+    border-radius: 5px;
+    color: white;
+    background-color: teal;
+    height: 30px;
+}
+#play{
+    width: 30px;
+    height: 30px;
+}
+.icons{
+    width: 20px;
+}
+.icons1{
+    display: flex;
+    justify-content: baseline;
+}
+.icons2{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(220, 241, 244);
+
+}
+.subscribe{
+    background-color: rgb(220, 241, 244);
+}
+body{
+    margin: 10%;
+}
+
+@media screen  and(min-width:200px) and (max-width:600px){
+
+
+}
