@@ -1,7 +1,6 @@
 .second{
     display: flex;
     justify-content:space-evenly;
-    gap: 260px;
 }
 .navbars{
     display: flex;
@@ -40,6 +39,8 @@
 .doctors{
     display: flex;
     justify-content: space-evenly;
+
+
 }
 .subscribe{
     text-align: center;
@@ -58,12 +59,12 @@
 #image1{
     position: relative;
     top: 0;
+    width: 200px;
+
 }
 .heading1{
     display: flex;
     justify-content: space-evenly;
-    background-color: rgb(220, 241, 244);
-    border: 300px;
 }
 #smile{
     position: absolute;
@@ -100,14 +101,39 @@
     background-color: rgb(220, 241, 244);
 
 }
-.subscribe{
-    background-color: rgb(220, 241, 244);
+/* .subscribe{
+   // background-color: rgb(220, 241, 244);
+} */
+.pics{
+   width: 150px;
+   height: 150px;
 }
-body{
+/* body{
     margin: 10%;
+} */
+.photo{
+    width: 100px;
+
 }
 
 @media screen  and(min-width:200px) and (max-width:600px){
 
-
+    .heading1{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: rgb(220, 241, 244);
+        border: 300px;
+        flex-wrap: wrap;
+    }
+    
+    .fifth{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .doctors{
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    
 }
